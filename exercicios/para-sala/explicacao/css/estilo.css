@@ -1,0 +1,89 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* banner */
+
+.banner {
+    background-image: url(../imagens/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, body {
+    margin: 0;
+}
+
+.banner h1, .banner p {
+    color: white;
+}
+
+h1 {
+    font-size: 26pt;
+}
+
+button {
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 14pt;
+    color: #7E4598;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+/* sobre */
+
+h2 {
+    color: #C4C4C4;
+}
+
+.descricao, .habilidades {
+    width: 40%;
+    display: inline-block;
+}
+
+.descricao button {
+    border-color: #7E459B;
+}
+
+.sobre {
+    padding: 70px;
+}
+
+.habilidades {
+    margin-left: 50px;
+}
+
+/* footer */
+
+.redes-sociais-botao {
+    background-color: #7E459B;
+    width: 20%;
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.redes-sociais-botao h4, .redes-sociais-botao p {
+    color: white;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.vermelho {
+    color: red;
+}
+
+.grande {
+    font-size: 50pt;
+}
