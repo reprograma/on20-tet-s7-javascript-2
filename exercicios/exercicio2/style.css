@@ -1,0 +1,11 @@
+button img{
+    height: 50px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav{
+    display: none;
+}
