@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Para Casa - Filtro e Eventos</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./index.js"></script>
+</head>
+
+<body>
+    <nav id="navegacao">
+        <!-- exercício -->
+        <button id="btn-eletrodomesticos"  >Eletrodomésticos</button>
+        <button id="btn-informatica"  >Informática</button>
+        <button id="btn-audioevideo" >Áudio&Vídeo</button>
+
+        <!-- opcional -->
+        <button id="btnPrecoQuinhentos"  onclick="filtrarprodutosPrecoQuinhentos()">Preço até R$500</button>
+        <button id="btnPrecoMil" onclick="filtrarprodutosPrecoMil()" >Preço até R$1000</button>
+        <button id="btnPrecoMileQuinhentos" onclick="filtrarprodutosPrecoMileQuinhentos()" >Preço até R$1500</button>
+        <button id="btnPrecoDoisMil" onclick="filtrarprodutosPrecoDoisMil()" >Preço acima R$2000</button>
+        
+
+    </nav>
+
+    <div id="caixa-produtos-html"></div>
+    
+</body>
+
+</html>
