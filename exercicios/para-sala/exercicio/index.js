@@ -7,7 +7,8 @@ let paragrafo = document.querySelector('p') // <p></p>
 // let mensagem = "Olá " + nome + ". Seja bem-vinda, ao meu site"
 let mensagem = `Seja bem-vinda, ${nome}` // "Seja bem-vinda, MICA"
 
-paragrafo.innerHTML = mensagem; // <p>Seja bem-vinda, MICA</p>
+paragrafo.innerHTML = mensagem;
+// <p>Seja bem-vinda, MICA</p>
 // paragrafo.textContent = mensagem;
 // paragrafo.innerText = mensagem;
 // paragrafo.innerHTML = `Seja bem-vinda, ${nome}`;
