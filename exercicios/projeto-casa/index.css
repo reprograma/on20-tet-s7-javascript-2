@@ -1,0 +1,26 @@
+ul{
+    display: flex;
+    list-style: none;
+    margin-left: 30%;
+}
+
+h1{
+    display: flex;
+    margin-left: 40%;
+}
+
+button{
+    background-color: blueviolet;
+    color: beige;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.btnAeV{
+    display: flex;
+    translate: 0;
+}
+
+.resultadoProd{
+    margin-left: 30%;
+}
