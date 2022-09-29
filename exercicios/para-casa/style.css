@@ -1,0 +1,103 @@
+h1{
+    font-size: 2em;
+}
+
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+
+header img{
+    height: 70px;
+}
+
+body{
+    background-color: rgb(52, 96, 134);
+  display: inline;
+}
+
+button{
+    margin-left:1em;
+    align-items: center;
+}
+
+button img{
+
+padding-left: 1em;
+height: 45px;
+}
+
+img{
+    height: 50px;
+}
+
+
+#caixa-produtos-html{
+    margin-top: 2em;
+    
+}
+
+#consulta{
+    background-color: rgb(78, 121, 159);
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+ 
+   
+    
+}
+
+#btn-eletrodomesticos {
+    
+    border-radius: 1em;
+    margin-bottom: 1em;
+    color: rgb(6, 6, 6);
+    background-color:#e4db5c;
+   
+   
+  }
+
+  #btn-informatica{
+    border-radius: 1em;
+    margin-bottom: 1em;
+    color: rgb(0, 0, 0);
+    background-color:#e4db5c;
+   
+  }
+
+  #btn-audioevideo{
+    border-radius: 1em;
+    margin-bottom: 1em;
+    color: rgb(0, 0, 0);
+    background-color: #e4db5c;
+  }
+
+
+  #btnPrecoQuinhentos{
+    border-radius: 1em;
+    margin-bottom: 1em;
+    color: rgb(0, 0, 0);
+    background-color: #c8f4da;
+  }
+
+  #btnPrecoMil{
+    border-radius: 1em;
+    margin-bottom: 1em;
+    color: rgb(0, 0, 0);
+    background-color: #c8f4da;
+  }
+
+  #btnPrecoMileQuinhentos{
+    border-radius: 1em;
+    margin-bottom: 1em;
+    color: rgb(0, 0, 0);
+    background-color: #c8f4da;
+  }
+
+  #btnPrecoDoisMil{
+    border-radius: 1em;
+    margin-bottom: 1em;
+    color: rgb(0, 0, 0);
+    background-color: #c8f4da;
+  }

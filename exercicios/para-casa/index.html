@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtro</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./index.js"></script>
+</head>
+<body> 
+    <header>
+        <img id="logo" src="./img/barata.png" alt="">
+        <h1>Casas "Barata" </h1>
+    </header>
+    <nav id="consulta">
+        <button  id="btn-eletrodomesticos" ><img src="./img/liquidificador.png" alt=""> Eletrodomésticos</button>
+       
+        <button id="btn-informatica"><img src="./img/controle-de-video-game.png" alt=""> Informática</button>
+        
+        <button id="btn-audioevideo" ><img src="./img/video-e-audio.png" alt=""> Áudio&Vídeo</button>
+        
+        <button id="btnPrecoQuinhentos"onclick="filtrarprodutosPrecoQuinhentos()"><img src="./img/nota-de-dolar.png" alt=""> Até R$500</button>
+      
+        <button id="btnPrecoMil" onclick="filtrarprodutosPrecoMil()" > <img src="./img/nota-de-dolar.png" alt=""> Até R$1000</button>
+      
+        <button id="btnPrecoMileQuinhentos" onclick="filtrarprodutosPrecoMileQuinhentos()"> <img src="./img/nota-de-dolar.png" alt="">  Até R$1500</button>
+        
+        <button id="btnPrecoDoisMil" onclick="filtrarprodutosPrecoDoisMil()" > <img src="./img/nota-de-dolar.png" alt=""> + R$2000</button>
+
+    </nav>
+
+    <div id="caixa-produtos-html"></div>
+    
+</body>
+</html>
