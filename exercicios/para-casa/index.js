@@ -86,4 +86,4 @@ let produtos = [
     const produtosPrecoDoisMil = produtos.filter((produtos)=>produtos.preco > 2000);
     escreverTela(produtosPrecoDoisMil);
   }
-  
+  //
