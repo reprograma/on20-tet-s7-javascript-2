@@ -6,4 +6,8 @@ function abrirMenu() {
 
 }
 
-botaoMenu.addEventListener('click', abrirMenu)
+function abrirFecharMenu(){
+    navabar.classList.toggle("ativo")
+}
+
+botaoMenu.addEventListener('click', abrirFecharMenu)

@@ -1,0 +1,35 @@
+
+body{
+text-align: center;
+margin: 40px;
+}
+
+li{
+ background-color: #cecece;
+ padding: 10px;
+ margin: 5px;
+ list-style: none;
+ width: 200px;
+}
+
+li:hover{
+   transform: scale(1.2);
+   background-color: #68a8c2;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button{
+    border: none;
+    padding: 16px;
+    background-color: cadetblue;
+    color: white;
+    text-transform: uppercase;
+}
+
+button:hover{
+    cursor: pointer;
+}

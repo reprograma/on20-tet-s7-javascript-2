@@ -9,3 +9,7 @@ nav a{
 nav{
     display: none;
 }
+
+nav.ativo{
+    display: flex;
+}
