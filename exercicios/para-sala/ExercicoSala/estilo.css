@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+button img {
+    height: 50px;
+    cursor: pointer;
+            
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 15pt;
+    color: black;
+       
+}
+
+nav {
+    display: none;
+   
+}
