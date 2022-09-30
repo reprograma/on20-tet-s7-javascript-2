@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+button img {
+  height: 50px;
+  filter: invert(1);
+  margin-left: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  background-color: black;
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+}
+
+nav ul {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 30px;
+  position: absolute;
+  transform: translateX(-200px);
+  transition: .8s ease-out;
+  top: 40px;
+}
+
+nav.ativo ul {
+  transform: translate(0);
+}
