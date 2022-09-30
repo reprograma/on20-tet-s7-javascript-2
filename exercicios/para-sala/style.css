@@ -1,0 +1,71 @@
+/* //////////////FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url(//db.onlinewebfonts.com/c/44f38b72e8eb0708fbfe315ed844f722?family=Voga);
+/* //////////////CORPO */
+body {
+  margin:0;
+  padding: 0;
+  border: 0;
+  font-family: 'Dosis', sans-serif;
+  color: #000000;
+  font-size: 67%;
+  background: #D9DFDB;
+}
+
+h1{
+  padding: 10px;
+  font-size: 3rem;
+  font-family: "Voga";
+  color: #5900ff;
+  text-align: center;
+}
+#cabecalho{
+    margin: 60px 50px 10px 50px;
+    padding: 10px;
+    border: #000000 1px solid;
+    font-size: 1rem;
+}
+#resposta7{
+    margin: 20px 50px 10px 50px;
+    padding: 0px;
+    border: #000000 1px solid;
+    font-size: 1rem;
+    text-align: center;
+    
+}
+.navegacao{
+    display: flex;
+    padding: 20px 10px 0 10px;
+}
+
+#nav{
+    display: flex;
+    padding: 20px 60px 0 60px;
+}
+#resultado{
+    
+}
+button{
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    background-color: #030303;
+    border: none;
+    color: #D9DFDB;
+}
+ul{
+    display: flex;
+
+}
+li{
+    margin: 10px;
+    padding: 30px;
+    background-color: #5435df;
+    color: #D9DFDB;
+    border-radius: 20px;
+    font-size: 1rem;
+    width: auto;
+    text-align: center;
+    list-style: none;
+}
