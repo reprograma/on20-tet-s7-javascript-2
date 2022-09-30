@@ -73,7 +73,7 @@ let body = document.querySelector('body')
 let lista = document.querySelector('ul')
 
 function filtrarProduto(filtro) {
-    
+    lista.innerHTML = ""
     for (let indice = 0; indice < produtos.length; indice++ ){
         if (filtro === produtos[indice].categoria){
             let li = document.createElement('li')
