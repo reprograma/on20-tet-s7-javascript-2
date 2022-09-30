@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja da Ana</title>
+</head>
+<body>
+    <main>
+        <div>
+            <h1>Escolha o seu produto de acordo com a categoria</h1>
+            <select name="categoria" id="categoria" onchange="selectCategory()">
+                <option value="index-produto">Filtre produtos por categoria</option>
+                <option value="informática">Informática</option>
+                <option value="eletrodomésticos">Eletrodomésticos</option>
+                <option value="áudio e vídeo">Áudio e Vídeo</option>
+            </select>
+            <select name="precos" id="precos">
+                <option value="index-produto">Filtre produtos por preço</option>
+                <option value="informática">até 100 reais</option>
+                <option value="eletrodomésticos">de 101 a 500 reais</option>
+                <option value="áudio e vídeo">acima de 500 reais</option>
+            </select>
+            <div id="listar-produtos"></div>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
