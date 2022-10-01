@@ -1,0 +1,26 @@
+body {
+  background-color: lightcyan;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  height: 80px;
+}
+
+button {
+  border: 1px solid lightslategray;
+  background-color: lightcyan;
+  padding: 10px 20px;
+}
+
+.produto {
+  font-size: 16pt;
+}
+
+span {
+  font-size: 14pt;
+}
