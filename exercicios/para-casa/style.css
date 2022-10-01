@@ -2,6 +2,16 @@ h1{
     font-size: 2em;
 }
 
+#icon {
+  height: 35px;
+  animation: crescendo 1.5s alternate infinite ease-in;
+}
+@keyframes crescendo {
+  0%   {transform: scale(.8);}
+  80% {transform: scale(1.5);}
+}
+
+
 header{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
@@ -10,11 +20,13 @@ header{
 
 header img{
     height: 70px;
+    
 }
+
 
 body{
     background-color: rgb(52, 96, 134);
-  display: inline;
+    display: inline;
 }
 
 button{
@@ -34,13 +46,16 @@ img{
 
 
 #caixa-produtos-html{
+    list-style: none;
     margin-top: 2em;
+    margin: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
 #consulta{
     background-color: rgb(78, 121, 159);
-    padding: 1em;
+    padding: 5em;
     margin: 1em;
     display: flex;
  
@@ -54,9 +69,11 @@ img{
     margin-bottom: 1em;
     color: rgb(6, 6, 6);
     background-color:#e4db5c;
-   
+    
    
   }
+  
+  
 
   #btn-informatica{
     border-radius: 1em;
@@ -101,3 +118,17 @@ img{
     color: rgb(0, 0, 0);
     background-color: #c8f4da;
   }
+
+
+  /* @media (max-width: 550px) {
+    #caixa-produtos-html , #consulta  {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+
+    button{
+      flex: 0 0;
+      max-width: 100%;
+    }
+  } */

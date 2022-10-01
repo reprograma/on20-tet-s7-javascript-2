@@ -1,5 +1,5 @@
 let produtos = [
-  { nome: "TV 20 polegadas", categoria: "áudio e vídeo", preco: 1500 },
+  { nome: "TV 20 polegadas",  categoria: "áudio e vídeo", preco: 1500 },
   { nome: "Aparelho de som", categoria: "áudio e vídeo", preco: 600},
   { nome: "Caixa de som JBL", categoria: "áudio e vídeo", preco: 230},
   { nome: "Mouse", categoria: "informática", preco: 70 },
@@ -25,15 +25,16 @@ let produtos = [
 /* função de escrever na tela que será chamada pelas outras funções, a listHTML foi criada para tirar do formato de objeto e colocar em formato de HTML para exibir na tela. A caixa foi criada para colocar o html gerado dentro dela com o querySelector e o innerHTML (EXERCÍCIO)*/
 
 function escreverTela(listaFiltrada){
-  let listaHTML = "<ul>";
+  let listaHTML = "";
   listaFiltrada.forEach(linha => {
-    listaHTML = listaHTML+"<li>"+linha.nome+" "+linha.categoria+" "+ linha.preco+"</li>";
+    listaHTML = listaHTML+"<li>"+linha.nome+" - "+" R$ "+ linha.preco+" "+"  </li>";
   });
   listaHTML = listaHTML+"</ul>"
  
   let caixa_produtos = document.querySelector('#caixa-produtos-html');
   caixa_produtos.innerHTML = listaHTML;
 }
+
 
 
 function filtrarEletrodomesticos(produto){
