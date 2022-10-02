@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    background-color: #ffbb96;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+img {
+    height: 200px;
+        
+}
+
+button {
+    background-color: #cb4c08;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 5%;
+}
