@@ -1,0 +1,24 @@
+body {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+    width: 100vw;
+  }
+  
+  div {
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+  }
+  
+  .vermelho {
+    background-color: red;
+  }
+  Footer
+  © 2022 GitHub, Inc.
+  Footer navigation
+  Terms
+  

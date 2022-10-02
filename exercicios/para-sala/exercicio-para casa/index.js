@@ -1,4 +1,4 @@
-let nome = prompt("Digite o seu nome"); // MICA
+let nome = prompt("Digite o seu nome"); // ADRIANA
 
 let paragrafo = document.querySelector('p') // <p></p>
 // let paragrafo = document.createElement('p')
