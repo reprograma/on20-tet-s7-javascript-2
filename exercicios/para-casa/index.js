@@ -66,10 +66,8 @@ let produtos = [
   }
 ]
 
-// SELECIONAR ELEMENTOS DO HTML 
-let botoesCategoria = document.querySelectorAll('button'); // [button, button, button]
+let botoesCategoria = document.querySelectorAll('button'); 
 
-// FUNÇÃO PARA COLOCAR OS ELEMENTOS NA TELA
 function listarProdutos(listaProdutos) {
   let section = document.querySelector('section')
   let listaExistente = document.querySelectorAll('.produto')
@@ -80,19 +78,14 @@ function listarProdutos(listaProdutos) {
     })
   }
 
-  // versão simplificada para apagar o código
-  // section.innerHTML = '';
-
   listaProdutos.forEach(function (produtoASerListado) {
     let p = document.createElement('p');
-    p.classList.add('produto') // configurar estilo no css com a classe produto
-    // p.style.fontSize = '20pt'
+    p.classList.add('produto')
     p.innerText = `Produto: ${produtoASerListado.nome} \n Preço: ${produtoASerListado.preco}`;
     section.appendChild(p);
   })
 }
 
-// FUNÇÃO PARA FILTRAR OS PRODUTOS
 function filtrarProdutos(evento) {
   let produtosFiltrados = [];
   produtosFiltrados = produtos.filter(function (produto) {
@@ -101,17 +94,7 @@ function filtrarProdutos(evento) {
   listarProdutos(produtosFiltrados);
 }
 
-
-// ADICIONAR UM EVENTO A UM ELEMENTO DO HTML
-// elemento.addEventListener('nome do evento', funcao)
-
-//  FORMA 1 DE ADICIONAR O EVENTO NOS BOTOES
-// botoesCategoria[0].addEventListener('click', filtrarProdutos)
-// botoesCategoria[1].addEventListener('click', filtrarProdutos)
-// botoesCategoria[2].addEventListener('click', filtrarProdutos)
-
-// FORMA 2 DE ADICIONR O EVENTO NOS BOTOES
 for (let botao of botoesCategoria) {
   botao.addEventListener('click', filtrarProdutos);
 }
-// CLICK -> filtrarProdutos(evento)
+
