@@ -8,12 +8,13 @@ body {
 }
 
 img {
-  height: 80px;
+  height: 200px;
 }
 
 button {
   border: 1px solid lightslategray;
-  background-color: lightcyan;
+  border-radius: 10px;
+  background-color:rgb(240, 239, 165);
   padding: 10px 20px;
 }
 
