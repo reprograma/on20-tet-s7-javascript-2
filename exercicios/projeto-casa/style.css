@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    background-color: #db13e257;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+button {
+    background-color: #e955e9;
+    padding: 30px 30px;
+    border: none;
+}
