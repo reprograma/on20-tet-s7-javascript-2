@@ -67,15 +67,16 @@ let produtos = [
   ]
 
  
-let botoesCategoria = document.querySelectorAll('button')
+let botoesCategoria = document.querySelectorAll('button');// [button, button, button]
 
-function listarProdutos(listarProdutos){
-  console.log(listarProdutos)
-  
-
+function listarProdutos(listarProdutos) {
+  listaProdutos.forEach(function () {
+ 
+  p.innerHTML = `Produto: ${produtoASerListado.nome}`;
+  })
 }
 
-function filtrarProdutos(evento){
+function filtrarProdutos(evento) {
   let produtosFiltrados = [];
   produtosFiltrados = produtos.filter(function (produto) {
     return produto.categoria === evento.target.innerText;
@@ -87,6 +88,4 @@ listarProdutos(produtosFiltrados);
 for (let elemento of botoesCategoria){
   elemento.addEventListener('click', filtrarProdutos);
 }
- //botoesCategoria[0].addEventListener('click',filtrarProdutos);
- //botoesCategoria[1].addEventListener('click',filtrarProdutos);
- //botoesCategoria[2].addEventListener('click',filtrarProdutos);
+ 
