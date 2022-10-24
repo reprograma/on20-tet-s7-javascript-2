@@ -1,0 +1,43 @@
+body {
+    background-color: aquamarine;
+    width: 100%;
+    font-family: sans-serif;
+    
+}
+
+
+.ele{
+   border-bottom: 10px;
+   border-radius: 20px;
+   background-color: white;
+   font-size: 15px;
+}
+
+.info {
+   border-bottom: 10px;
+   border-radius: 20px;
+   background-color: white;
+   font-size: 15px;
+}
+
+.aud {
+    border-bottom: 10px;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 15px;
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 15px;
+    border-radius: 20px;
+    background-color: blueviolet;
+}
+
+
+
+
+
+

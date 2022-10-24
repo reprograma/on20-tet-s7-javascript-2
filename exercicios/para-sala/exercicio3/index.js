@@ -1,8 +1,8 @@
 let botaoMenu = document.querySelector('button')
 let navbar = document.querySelector('nav')
 
-function abrirMenu() {
-  navbar.style.display = 'flex';
+function abrirfecharMenu() {
+  navbar.classList.toogle ('ativo');
 }
 
-botaoMenu.addEventListener('click', abrirMenu)
+botaoMenu.addEventListener('click', abrirfecharMenu)
